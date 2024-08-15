@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="50eabeb3-4af4-49f3-bde3-d5902843a07c" ESProjectName="URAL" ESDeviceName="HMI_RT_1" RtProjectFolderName="URAL.HMI_1[MTP1500 Unified Comfort]" RtProjectName="URAL.HMI_1[MTP1500 Unified Comfort]" DeviceType="MTP1500 Unified Comfort" DeviceVersion="17.0.0.0" CreationTime="01/24/2024 14:18:56" RuntimeAddonFolderName="UCP_7_22" FirmwareFileName="" RuntimeFileName="" PRCV="3.0.0.0" RTCV="16.0.0.0" RTReleaseNo="17.0.0.0" ImageReleaseNo="17.0.0.0" />
+  <DeltaDownload>deltas\145\cds.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\ChromIdentification.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\deltaImageLibrary_1033.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\deltaMain.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\deltaTextLibrary_175_1033.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\deltaTextLibrary_94_1033.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\ProjectCharacteristics.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\config\config.level</DeltaDownload>
+  <DeltaDownload>deltas\145\screens\screen_858.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\screens\screen_859.rdf</DeltaDownload>
+  <DeltaDownload>deltas\145\screens\screen_976.rdf</DeltaDownload>
+</DownloadTask>

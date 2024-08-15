@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="TIAProjectTexts.xml" projectName="C:\Users\danil\Documents\Automation\TIAProjectTexts.xlsx" typeText="Type" messageText="Message" timeText="Time">
+  <LogEntry type="Information" dateTime="4:34:45 AM">
+    <Message>Text import started.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="4:34:45 AM">
+    <Message>Object in row 2 with internal ID '3TW6dqx+v0Rqlb81wm4MhGOd6QRaNO4HemXAisQWgGu3uRG3H6IU7vhWi48T4Dm820T4bLHDx3mR/2EA2XNp4W1jNrhFBd0iwvmW07O7oNXBDaTzo+I0G1NqtKsOOkabYtfrzi9pdjzY18Tpl6Jz0sVauS6jfXjI9CGGdaa1wqIYsHbthYp6gxfWzNiIcEv404AXcdmoSRzVN0IF4GyXmBLhMOAky8+RVyL1LO2RBJU=' is read-only and therefore cannot update value.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="4:34:45 AM">
+    <Message>Text import completed with warnings.</Message>
+  </LogEntry>
+</LogFile>

@@ -1,0 +1,87 @@
+{
+  "version": "2",
+  "users": [
+    {
+      "name": "Admin",
+      "password": {
+        "hash": "r47QTxXvLwyWHiFjtzfBokg6kUD1mXVNoHLj2iJNtOm6a61bAjwvLohCBIBSXyKUrwAXwGctKuMFiZz48PTJcQ==",
+        "salt": "7vCk3y7xsQP1dTJNz0c3nHkgXOJNWg5HQ06hGV0YZkk=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Admin",
+      "comment": "Admin / Rusal_112358",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    },
+    {
+      "name": "Operator",
+      "password": {
+        "hash": "eObXmoCRLUGUAhL4KaP3eK0TMc442PPRP9KEGyp6Pq7u3+x7Ofnt8xtsNCR/Fysqmj5l+r5bZRUDN+B2PNx4rQ==",
+        "salt": "z1tWA3qCPvVvz6swbL/dXWmvHaV3lS+BNZoU0axXt7U=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Operator",
+      "comment": "Operator / Operator_112358",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 10
+    }
+  ],
+  "groups": [
+    {
+      "name": "HMI Administrator",
+      "roles": [
+        "HMI Administrator"
+      ],
+      "users": [
+        "Admin"
+      ]
+    },
+    {
+      "name": "HMI Operator",
+      "users": [
+        "Operator"
+      ]
+    },
+    {
+      "name": "HMI Monitor",
+      "users": []
+    }
+  ],
+  "roles": [
+    {
+      "name": "HMI Administrator",
+      "rights": [
+        "UM_ADMIN",
+        "UM_IMPORT",
+        "UM_EXPORT",
+        "UM_VIEW",
+        "UM_RESETPWD"
+      ]
+    }
+  ],
+  "globalAccountPolicies": {
+    "enablePasswordHistoryByDays": 0,
+    "enablePasswordHistoryByNumber": 1,
+    "enablePasswordCheck": 1,
+    "numberOfPasswordBeforeReuse": 5,
+    "passwordAging": 0,
+    "passwordMaxLength": 120,
+    "passwordMinAlphaChar": 0,
+    "passwordMinLength": 8,
+    "passwordMinLowerChar": 1,
+    "passwordMinUpperChar": 1,
+    "passwordMinNumericChar": 1,
+    "passwordMinOtherChar": 0
+  },
+  "umcConfig": {
+    "local": {
+      "domainName": "UM_Domain"
+    }
+  }
+}
